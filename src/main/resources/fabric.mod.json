@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "galaxyclient",
+  "version": "${version}",
+  "name": "GalaxyClient",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.galaxy.GalaxyClient"
+    ]
+  },
+  "mixins": [
+    "galaxyclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

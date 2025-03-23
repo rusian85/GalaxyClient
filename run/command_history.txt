@@ -1,0 +1,3 @@
+/login 1111111
+/time set night
+/reg 888rus888
